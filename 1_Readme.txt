@@ -3,7 +3,7 @@ any Qs email me: collinson.lp@virginmedia.com
 Files are alphabetical (sad) but should be clustered by function
 the essentials
 - hex2rgb and rgb2hex (for PIPs)
-- The data for passive pathogen and toxic pathogen (figure 15 and 18). This contains the results from all competitions (every gamma value for every spectrum),  GamESSs for each value of spectrum, and the kipESS. NOTE - for the majority of my data, gamma is scanned between 0.0 and 0.2 with 99 steps, as the ESS almost always lies in this range and this increases the resolution of the ESS calc.
+- The data for passive pathogen and toxic pathogen (figure 15 and 18 is in the .mat files). This contains the results from all competitions (every gamma value for every spectrum),  GamESSs for each value of spectrum, and the kipESS. NOTE - for the majority of my data, gamma is scanned between 0.0 and 0.2 with 99 steps, as the ESS almost always lies in this range and this increases the resolution of the ESS calc.
 - patch_mods, the system of equations used. NutrSteadyState is the settings, so also needs to be saved. Both of these for the regular model, probio (1 nutrient) and probio (2 nutrients) have different patch_mods and steadystates 
 
 anything with patch_mod is the system of equations which will be used, so needs to be saved. Nutr_steadystate is the settings, so also needs to be saved
