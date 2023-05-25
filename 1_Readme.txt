@@ -1,3 +1,5 @@
+any Qs email me: collinson.lp@virginmedia.com
+
 Files are alphabetical (sad) but should be clustered by function
 the essentials
 - hex2rgb and rgb2hex (for PIPs)
