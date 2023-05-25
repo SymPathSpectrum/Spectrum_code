@@ -19,7 +19,7 @@ A blank 'prod_scan_parameter' is included with the general template for paramete
 
 3. Prod_ESS - calculates the ESS production rate for every value of spectrum. Finds the diagonal (res|res) value with the greatest number of unsuccessful invasions. For the frequency model, Prod_ESS_new calculates the ESS as the point between the fewest invasions 'above' and 'below', as there can be regions of mutual invasibility.
 
-4. Prod_PIP is used to generate PIPs for production rate evolution
+4. Prod_PIP is used to generate PIPs for production rate evolution. You can use these labeled ot_3stp for any of the data, as they all use the same results format
 
 5. Spec_scan - runs comps for all values of spectrum (using the calcuated ESSs for the resident spectrum). In the freq model, this can take a while as gamma ESS changes over frequency so all frequency values are run also
 
