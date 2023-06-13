@@ -20,6 +20,10 @@ abc_patch_mod and abc_NutrSteadyState need to be saved
     
     Fig 18, default, GamP = 0.2, EP = 2
     
+    Fig S4, default, GamP = 0.2, EP = 0.2
+    
+    Fig S5, default, r(1,3) = 0.8
+    
     
 2. a1_production_rate_ESS_and_PIP 
 
