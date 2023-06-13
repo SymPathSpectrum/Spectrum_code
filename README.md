@@ -23,7 +23,7 @@ abc_patch_mod and abc_NutrSteadyState need to be saved
     fig 15 and 18 generated here, no changes needed 
     
 -- 
-# Figures 11 ans S1 also generated using 'a' code
+# Figures 11 and S1 also generated using 'a' code
 abc_patch_mod and abc_NutrSteadyState need to be saved
 1. Setting_constants
 
