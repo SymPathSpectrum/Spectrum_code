@@ -8,7 +8,7 @@ The essentials
 - the patch_mod and NutrSteadyState codes encode the system of equations and steady state function respecitvely, so need to be saved before running comps
 
 --
-# Figures 13, 15, 18, S4 and S5 generated using code starting with 'a'
+# Single spectrum PIP (Figures 13, 15, 18, S4 and S5) generated using code starting with 'a'
 abc_patch_mod and abc_NutrSteadyState need to be saved
 1. setting_constants sets the parameters - main difference between the figures
     Fig 13, default, GamP = 0
@@ -23,7 +23,7 @@ abc_patch_mod and abc_NutrSteadyState need to be saved
     fig 15 and 18 generated here, no changes needed 
     
 -- 
-# Figures 11 and S1 also generated using 'a' code
+# Changing production rate outcomes (Figures 11 and S1) also generated using 'a' code
 abc_patch_mod and abc_NutrSteadyState need to be saved
 1. Setting_constants
 
@@ -31,7 +31,7 @@ abc_patch_mod and abc_NutrSteadyState need to be saved
     set spectrum as required
     
 -- 
-# figures S2 and S3 (parameter sweeps) generated using code starting with 'b'
+# Parameter sweeps (figures S2 and S3) generated using code starting with 'b'
 abc_patch_mod and abc_NutrSteadyState need to be saved
 1. setting_constants
     S2 and S3, default, GamP = 0
@@ -44,7 +44,7 @@ abc_patch_mod and abc_NutrSteadyState need to be saved
     S3 generated here (one parameter at a time)
     
 --
-# figures 20, 21 and 22 (frequency) generated with code starting with 'c'
+# Frequency model (figures 20, 21 and 22) generated with code starting with 'c'
 abc_patch_mod and abc_NutrSteadyState need to be saved
 1. setting_constants
     Fig 20, default, gamP = 0
@@ -59,17 +59,20 @@ abc_patch_mod and abc_NutrSteadyState need to be saved
     Know what you're production rates are doing before trying this step
     
 --
-# Figure 27 (probiotic, one nutrient) generated using code starting with 'd'
+# Single nutrient Probiotic outcomes (Figure 27) generated using code starting with 'd'
 d_patch_mod and d_NutrSteadyState need to be saved
 1. d_probiotic_one_nutrient
     fig 27 values generated in heatmaps which reflect the figure
     when looking at 'ideal_value' matrices to get optimal production rates and affinties, be aware that the data is structured differently!
     
 --
-# Figure 29 (probiotic, two nutrient) generated using code starting with 'e'
+# Two nutrient probiotic outcomes (Figure 29) generated using code starting with 'e'
 e_patch_mod and e_NutrSteadyState need to be saved
 1. e_probiotic_two_nutrients
     fig 29 values generated in heatmaps which reflect the figure 
     
 --
 # Dynamics plots generated using 'indiv_fight' for relevant equation systems ('abc', 'd', or 'e')
+relevant patch_mod and NutrSteadyState must be saved
+1. x_indiv_fight
+    set parameters as required, can use calculated GamESS values or those from parameter index to look at a specific point on a PIP
