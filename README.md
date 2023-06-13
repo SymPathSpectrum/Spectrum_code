@@ -11,10 +11,9 @@ The essentials
 # Single spectrum PIP (Figures 13, 15, 18, S4 and S5) generated using code starting with 'a'
 abc_patch_mod and abc_NutrSteadyState need to be saved
 1. setting_constants sets the parameters - main difference between the figures
-
-Fig 13, default, GamP = 0
-Fig 15, same as 13
-Fig 18, default, GamP = 0.2, EP = 2
+    Fig 13, default, GamP = 0
+    Fig 15, same as 13
+    Fig 18, default, GamP = 0.2, EP = 2
     
 2. a1_production_rate_ESS_and_PIP 
     Fig 13 can be generated here
